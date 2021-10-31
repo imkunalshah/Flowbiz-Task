@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flowbiz Task</string>
+    <string name="search">Search ...</string>
+    <string name="average_view_count">Average View Count</string>
+    <string name="average_answer_count">Average Answer Count</string>
+    <string name="clear">Clear</string>
+    <string name="apply">Apply</string>
+    <string name="go">Go</string>
+</resources>

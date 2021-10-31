@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="@dimen/_10ssp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38ssp">
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:paddingEnd="0dp"
+                android:paddingStart="@dimen/_20ssp"
+                android:maxLines="1"
+                android:text="Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
